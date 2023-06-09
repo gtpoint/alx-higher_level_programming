@@ -1,9 +1,10 @@
 #!/usr/bin/python3
+# 1-calculation.py
 
 if __name__ == "__main__":
+    """Print the sum, sub, mul and quotient of 10 and 5."""
     from calculator_1 import add, sub, mul, div
 
-    """print the result of operations calculator +, -, /, *"""
     a = 10
     b = 5
 
