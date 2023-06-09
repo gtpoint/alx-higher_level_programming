@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
+   """print the sum of two variables"""
    from add_0 import add
 
    a = 1
