@@ -3,7 +3,9 @@
 def element_at(my_list, idx):
     """ retrieves an element from a list like in C."""
 
-    if idx < 0 or idx > len(my_list):
+    if idx < 0:
        return None
+    if idx >= len(my_list):
+        return None
     
     return my_list[idx]
