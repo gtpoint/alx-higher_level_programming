@@ -7,4 +7,4 @@ def no_c(my_string):
 
    _list = [letter for letter in my_string if letter != 'c' and letter != 'C']
 
-   print("".join(_list))
+   return ("".join(_list))
