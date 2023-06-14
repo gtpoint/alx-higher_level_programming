@@ -11,5 +11,5 @@ track at alx Africa/Maroccan.
 
 ## Author :
 
-* **Oussama El aouzari** <[Oussama](https://github.com/gtpoint)>
+* **Oussama El aouzari** <[gtpoint](https://github.com/gtpoint)>
 
