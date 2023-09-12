@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const x = Math.trunc(Number(process.argv[2]));
-if (typeof x !== "number") {
+if (isNaN(x)) {
   console.log('Missing number of occurrences');
 } else {
   for (let i = 0; i < x; i++) {
