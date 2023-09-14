@@ -11,5 +11,5 @@ if __name__ == "__main__":
     c = db.cursor()
     c.execute("SELECT * FROM `states`")
     for state in c.fetchall():
-      if state[1] == sys.argv[4]:
+      if state == sys.argv[4]:
         print(state)
