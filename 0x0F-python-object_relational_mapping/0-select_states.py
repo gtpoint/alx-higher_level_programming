@@ -2,7 +2,7 @@
 # Lists all states from the database hbtn_0e_0_usa.
 
 import sys
-from MySQLdb import _mysql
+import MySQLdb
 
 if __name__ == "__main__":
   db=_mysql.connect(host="localhost",user=sys.argv[1],
