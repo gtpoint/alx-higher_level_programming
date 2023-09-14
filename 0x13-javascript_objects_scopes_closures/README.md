@@ -87,8 +87,3 @@ Prototypes for functions written in this project:
   * [101-sorted.js](./101-sorted.js): JavaScript script that imports a dictionary
   of occurrences by user ID and computes a new dictionary of user ID's by occurrences.
   * Prints the new dictionary.
-
-* **13. Concat files**
-  * [102-concat.js](./102-concat.js): JavaScript script that concatenates two files
-  passed as arguments into a file specifed as the third argument.
-  * Usage: `./102-concat.js fileA fileB fileC`.
