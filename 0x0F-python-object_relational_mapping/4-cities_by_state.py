@@ -7,8 +7,9 @@ import MySQLdb
 if __name__ == "__main__":
   db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
   crs = db.cursor()
-  crs.execute("SELECT * FROM `cities` \
-              JOIN `states` ON `cities`.`state_id` = `states`.`id` \
+  crs.execute("SELECT `cities`.`id`, `cities`.`name`, `states`.`name` \
+              FROM `cities` JOIN `states` \
+              ON `cities`.`state_id` = `states`.`id` \
               ORDER BY `states`.`id` ASC")
   for stat in crs.fetchall():
     print(stat)
