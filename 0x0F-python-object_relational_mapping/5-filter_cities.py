@@ -14,5 +14,5 @@ if __name__ == "__main__":
                    ON `c`.`state_id` = `s`.`id` \
                 ORDER BY `c`.`id`")
   for citie in crs.fetchall():
-    if citie[3] == sys.argv[4]:
-      print(citie[3])
+    if citie[4] == sys.argv[4]:
+      print(" ,".join(citie[2]))
