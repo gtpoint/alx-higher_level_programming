@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """Start link class to table in database
 """
-import sys
-sys.path.append('/path/to/0x0F-python-object_relational_mapping')
 
+import sys
 from model_state import Base, State
 from sqlalchemy import (create_engine)
 
